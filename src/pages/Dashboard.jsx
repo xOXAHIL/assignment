@@ -19,11 +19,16 @@ const Dashboard = () => {
   const [searchText, setSearchText] = useState("");
   const [selectedOrderDetails, setSelectedOrderDetails] = useState({});
   const [selectedOrderTimeStamps, setSelectedOrderTimeStamps] = useState({});
+  const handleRowSelect = (row) => {
+    setSelectedOrderDetails(row);
+    setSelectedOrderTimeStamps(row.executionDetails.orderSubmitted); // Assuming your data structure includes timestamps
+  };
+  
 
   return (
     <div>
       <div className={styles.header}>
-        <HeaderTitle primaryTitle="Orders" secondaryTitle="5 orders" />
+        <HeaderTitle primaryTitle="Orders" secondaryTitle= {mockData.results.length} />
         <div className={styles.actionBox}>
           <Search
             value={searchText}
@@ -41,13 +46,15 @@ const Dashboard = () => {
           <Card
             cardData={selectedOrderDetails}
             title="Selected Order Details"
+            keysToShow={3}
           />
           <Card
             cardData={selectedOrderTimeStamps}
             title="Selected Order Timestamps"
+            keysToShow={3}
           />
         </div>
-        <List rows={mockData.results} />
+        <List rows={mockData.results} currency={currency} onRowSelect={handleRowSelect}/>
       </div>
     </div>
   );

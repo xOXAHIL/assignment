@@ -16,7 +16,8 @@
       "executionDetails": {
         "buySellIndicator": "BUYI",
         "orderStatus": "NEWO",
-        "orderType": "Market"
+        "orderType": "Market",
+        "orderSubmitted": "2022-11-04T15:29:00Z"
       },
       "statsDetails": {
         "avgVsArrivalPrice": 0.0,
@@ -102,7 +103,8 @@
       "executionDetails": {
         "buySellIndicator": "BUYI",
         "orderStatus": "NEWO",
-        "orderType": "Market"
+        "orderType": "Market",
+        "orderSubmitted": "2022-11-04T15:29:00Z"
       },
       "statsDetails": {
         "avgVsArrivalPrice": 0.0,
@@ -188,7 +190,8 @@
       "executionDetails": {
         "buySellIndicator": "BUYI",
         "orderStatus": "NEWO",
-        "orderType": "Market"
+        "orderType": "Market",
+        "orderSubmitted": "2022-11-04T15:29:00Z"
       },
       "statsDetails": {
         "avgVsArrivalPrice": 0.0,
@@ -274,7 +277,8 @@
       "executionDetails": {
         "buySellIndicator": "BUYI",
         "orderStatus": "NEWO",
-        "orderType": "Market"
+        "orderType": "Market",
+        "orderSubmitted": "2022-11-04T15:29:00Z"
       },
       "statsDetails": {
         "avgVsArrivalPrice": 0.0,
@@ -360,7 +364,8 @@
       "executionDetails": {
         "buySellIndicator": "BUYI",
         "orderStatus": "NEWO",
-        "orderType": "Market"
+        "orderType": "Market",
+        "orderSubmitted": "2022-11-04T15:29:00Z"
       },
       "statsDetails": {
         "avgVsArrivalPrice": 0.0,
@@ -446,7 +451,8 @@
       "executionDetails": {
         "buySellIndicator": "SELL",
         "orderStatus": "NEWO",
-        "orderType": "Market"
+        "orderType": "Market",
+        "orderSubmitted": "2022-11-04T15:29:00Z"
       },
       "statsDetails": {
         "avgVsArrivalPrice": 0.0,
